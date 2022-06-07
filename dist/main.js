@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const circle_1 = require("./circle");
+let circle = new circle_1.Circle(5, 'pink');
+console.log(circle);
+console.log(`dien tich hinh tron la ${circle.getArea()}`);
+const cylinder_1 = require("./cylinder");
+let cylynder = new cylinder_1.Cylinder(5, 8, 'red');
+console.log(cylynder);
+console.log(`the tich hinh tru la ${cylynder.getVolume()}`);
